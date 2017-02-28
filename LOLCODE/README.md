@@ -28,6 +28,16 @@ apt-get install lib32ncurses5-dev
 ./lci example.lol
 ```
 
+#### Commands to Try
+- ```./lci array_to_string.lol```
+- ```./lci is_string_even.lol```
+- ```./lci is_string_palindrome.lol```
+- ```./lci reverse_string.lol```
+- ```./lci slice_string.lol```
+- ```./lci sort_array.lol```
+- ```./lci string_to_array.lol```
+- ```./lci string_to_lowercase.lol```
+
 #### CLI Arguments
 Command-line arguments appear to be impossible to pass through to the compiled code. As a work around, we can use the terminal ```<``` function to pass in what appears to be an argument!
 
@@ -60,8 +70,48 @@ LOLCODE has:
 - String Concatination
 
 LOLCODE says it has:
-- File IO, but I can't get it to work reliably.
+- File IO, but I can't get it to work reliably. I use the cli argument workaround above.
+
+This seems like a very functional and capable language to work with. Infact, from the language specifications, it just looks like a "reskin" of a statically typed language with a few quirks.
+
+My development direction was focused on tackling the challenge problem, which was to basically:
+- Accept input string.
+- Determine if string is a palindrome.
+- Sort string.
+- Output a message to the user.
+
+To bring it all together, put the input strings into a file, and mass output a message with each line processed like the above.
+
+For working examples, try out:
+```
+./lci app1.lol
+```
+
+```
+./lci app2.lol < list.txt
+```
+
+- Once I figured out how to use arrays to better store my data, everything else kind of clicked together.
+- I determined my own personal style guide as I went.
+- Condensing variable declaration, assignment and if applicable, one-time use in a function call into a single line with LOLCODE's ability to combine lines with the ```,``` operator was a very useful, cookie-cutter-ish way of approaching syntax.
+- Also, use lowercase everything to distinguise your code from the very loud syntax.
+- Regarding loops, I found that you are either iterating from 0 to some number N, or you are iterating until a condition is met and escape out. I didn't have too much luck iterating from a value V to some number N, but this might be possible.
+- It will help to keep your string lengths handy, because they are used all over. I don't know how to get around this.
+- This is doubly true for arrays I believe. I don't know of a way to get array length, unless it was something like ```array'Z LEN```, which I don't remember if I tried or not.
+- And use functions! And organize your function declaration area in your file! Be neat!
+
+```
+I HAS A input_string ITZ A YARN, GIMMEH input_string
+I HAS A input_int, GIMMEH input_string, input_string IS NOW A YARN
+I HAS A string_length, string_length R I IZ STRING'Z LEN YR string MKAY
+
+I HAS A character_array ITZ A BUKKIT
+I HAS A array_length, array_length R 3
+```
 
 ## Knowledge Base
 - http://lolcode.org/
 - https://github.com/justinmeza/lci
+- https://github.com/LoganKelly/LOLTracer/blob/master/LOLTracer.lol
+- https://github.com/chuthagoras/lolcode/blob/master/final.lol
+- https://esolangs.org/wiki/LOLCODE
