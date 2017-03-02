@@ -1,0 +1,377 @@
+Mordor, a trial by fire.
+
+Titus, 			temporary storage space used for value.
+Timon, 			temporary storage space used for stack length.
+Titania, 		temporary storage space instructor.
+Thurio, 		temporary storage space used in sort offset accumulator.
+Tybalt, 		temporary storage space used in sort offset accumulator.
+
+Portia,			boolean holder						is input a palindrome.
+
+Achilles, 		character-stack						consumed during read-reverse.
+Adonis, 		character-stack length				consumed.
+Benvolio, 		character-stack						normal keep outputted.
+Bianca, 		character-stack length				normal.
+Capulet, 		character-stack						reverse keep outputted.
+Cicero, 		character-stack length				reverse.
+Desdemona, 		character-stack						reverse consumed for is_palindrome.
+Dionyza, 		character-stack length				reverse.
+Egeus, 			character-stack						normal consumed for is_palindrome.
+Emilia, 		character-stack length				normal.
+
+Fenton, 		character-stack						normal to be consumed for sort_array.
+Ford, 			character-stack length				normal.
+Shallow,		temporary sort storage for a single value.
+Shylock,		temporary sort storage for a single value.
+Slender,		temporary sort storage stack to reverse.
+Solinus,		temporary sort storage stack length.
+
+Act I: Start trial.
+Scene I: Set lengths to 0.
+[Exeunt]
+[Enter Titus]
+	[Enter Portia] 		Titus: You are as small as a cat! 	[Exit Portia]
+	[Enter Timon] 		Titus: You are nothing! 			[Exit Timon]
+	[Enter Adonis] 		Titus: You are nothing! 			[Exit Adonis]
+	[Enter Bianca] 		Titus: You are nothing! 			[Exit Bianca]
+	[Enter Cicero] 		Titus: You are nothing! 			[Exit Cicero]
+	[Enter Dionyza] 	Titus: You are nothing! 			[Exit Dionyza]
+	[Enter Emilia] 		Titus: You are nothing! 			[Exit Emilia]
+	[Enter Ford] 		Titus: You are nothing! 			[Exit Ford]
+[Exit Titus]
+
+Scene II: Push input string into character-stacks.
+[Exeunt]
+[Enter Titus]
+	[Enter Titania] Titania: Open your mind! [Exit Titania]
+
+	[Enter Achilles] 	Titus: You are as small as I. Remember yourself.	[Exit Achilles]
+	[Enter Benvolio] 	Titus: You are as small as I. Remember yourself. 	[Exit Benvolio]
+	[Enter Egeus] 		Titus: You are as small as I. Remember yourself. 	[Exit Egeus]
+	[Enter Fenton] 		Titus: You are as small as I. Remember yourself. 	[Exit Fenton]
+
+	[Exit Titus]
+	[Enter Timon]
+	[Enter Titania] Titania: You are as big as the sum of yourself and a cat.[Exit Titania]
+
+	[Enter Adonis] 		Timon: You are as big as I! 	[Exit Adonis]
+	[Enter Bianca] 		Timon: You are as big as I! 	[Exit Bianca]
+	[Enter Emilia] 		Timon: You are as big as I! 	[Exit Emilia]
+	[Enter Ford] 		Timon: You are as big as I! 	[Exit Ford]
+
+	[Exit Timon]
+	[Enter Titus]
+	[Enter Titania]
+		Titus: Am I as evil as a war?
+		Titania: If not, let us return to scene II.
+	[Exit Titania]
+
+	[Enter Achilles] 	Titus: Recall a memory. 	[Exit Achilles]
+	[Enter Benvolio] 	Titus: Recall a memory. 	[Exit Benvolio]
+	[Enter Egeus] 		Titus: Recall a memory. 	[Exit Egeus]
+	[Enter Fenton] 		Titus: Recall a memory. 	[Exit Fenton]
+
+	[Exit Titus]
+	[Enter Timon]
+	[Enter Titania] Titania: You are as small as the difference between yourself and a cat! [Exit Titania]
+
+	[Enter Adonis] 		Timon: You are as small as I! 	[Exit Adonis]
+	[Enter Bianca] 		Timon: You are as small as I! 	[Exit Bianca]
+	[Enter Emilia] 		Timon: You are as small as I! 	[Exit Emilia]
+	[Enter Ford] 		Timon: You are as small as I! 	[Exit Ford]
+	[Exit Timon]
+	[Enter Titus]
+[Exit Titus]
+
+Scene III: Reverse of the string by popping from Achilles Adonis.
+[Exeunt]
+[Enter Titus]
+	[Enter Achilles]
+		Titus: Recall a memory.
+		[Exit Titus]
+		[Enter Capulet] 	Achilles: You are as small as I. Remember yourself. [Exit Capulet]
+		[Enter Desdemona] 	Achilles: You are as small as I. Remember yourself. [Exit Desdemona]
+		[Enter Titus]
+	[Exit Achilles]
+
+	[Enter Adonis]
+		Titus: You are as small as the sum of yourself and a toad!
+		[Exit Titus]
+		[Enter Cicero] 		Adonis: You are as big as the sum of yourself and a cat.	[Exit Cicero]
+		[Enter Dionyza] 	Adonis: You are as big as the sum of yourself and a cat.	[Exit Dionyza]
+		[Enter Titus]
+		Titus: Are you better than nothing?
+		Adonis: If so, let us return to scene III.
+	[Exit Adonis]
+[Exit Titus]
+
+Scene IV: Is this input string a palindrome?
+[Exeunt]
+[Enter Desdemona]
+[Enter Egeus]
+	Desdemona: 	Recall a memory.
+	Egeus: 		Recall a memory.
+	Desdemona: 	Are you as big as me?
+	[Exit Desdemona]
+	[Enter Portia] Egeus: If not, you are as small as a toad! [Exit Portia]
+	[Enter Desdemona]
+[Exit Desdemona]
+[Exit Egeus]
+
+[Enter Dionyza]
+[Enter Emilia]
+	Dionyza: 	You are as small as the sum of yourself and a toad!
+	Emilia: 	You are as small as the sum of yourself and a toad!
+	Dionyza: 	Are you better than nothing?
+	Emilia: 	If so, let us return to scene IV.
+	Emilia: 	Are you better than nothing?
+	Dionyza: 	If so, let us return to scene IV.
+[Exit Dionyza]
+[Exit Emilia]
+
+[Enter Titus]
+[Enter Portia]
+
+		Titus: Are you bigger than nothing?
+		Portia: If so, you are as small as the sum of a bold brave fine fair cute good cat and a cat.
+		Portia: If so, speak your mind.
+		Portia: If so, you are as small as the sum of a bold brave fine fair cute good cat and the sum of a bold brave fine fair cat and the sum of a bold brave fine cat and a cat.
+		Portia: If so, speak your mind.
+		Portia: If so, you are as small as the sum of a bold brave fine fair cute good cat and the sum of a bold brave cat and a cat.
+		Portia: If so, speak your mind.
+
+		Titus: Are you smaller than nothing?
+		Portia: If so, you are as small as the sum of a bold brave fine fair cute good cat and the sum of a bold brave fine cat and the sum of a bold brave cat and a bold cat.
+		Portia: If so, speak your mind.
+		Portia: If so, you are as small as the sum of a bold brave fine fair cute good cat and a cat.
+		Portia: If so, speak your mind.
+		Portia: If so, you are as small as the sum of a bold brave fine fair cute good cat and the sum of a bold brave fine fair cat and the sum of a bold brave fine cat and a cat.
+		Portia: If so, speak your mind.
+
+[Exit Titus]
+[Exit Portia]
+
+Scene V: Display Spacer.
+[Exeunt]
+[Enter Titus]
+[Enter Portia]
+
+		Portia: You are as small as a bold brave fine fair cute cat. Speak your mind.
+		Portia: You are as small as the difference between a bold brave fine fair cute good rich cat and a fine fair cat. Speak your mind.
+		Portia: You are as small as a bold brave fine fair cute cat. Speak your mind.
+
+[Exit Titus]
+[Exit Portia]
+
+Scene X: Check if we finished sorting.
+[Exeunt]
+
+[Enter Timon]
+[Enter Titania]
+Titania: You are nothing!
+[Exit Titania]
+[Exit Timon]
+
+	[Enter Titus]
+	[Enter Bianca] Bianca: You are as small as the difference between myself and a cat! [Exit Bianca]
+	[Enter Thurio] Titus: You are nothing! [Exit Thurio]
+	[Exit Titus]
+
+	Scene XI: Loop through the string two characters at a time.
+	[Exeunt]
+
+		[Enter Titus]
+		[Enter Tybalt] Titus: You are nothing! [Exit Tybalt]
+		[Exit Titus]
+
+		Scene XII: Pop previously sorted characters loop.
+		[Exeunt]
+		[Enter Tybalt]
+		[Enter Thurio]
+			Tybalt: Are you as big as me?
+			Thurio: If so, let us return to scene XIII.
+			[Exit Tybalt]
+			[Exit Thurio]
+				[Enter Benvolio]
+				[Enter Slender]
+					Slender: Recall a memory.
+					Benvolio: You are as small as I. Remember yourself.
+				[Exit Benvolio]
+				[Exit Slender]
+			[Enter Tybalt]
+			[Enter Thurio]
+			Thurio: You are as small as the sum of yourself and a cat.
+		Thurio: Let us return to scene XII.
+		[Exit Tybalt]
+		[Exit Thurio]
+
+		Scene XIII: Swap Sort.
+		[Exeunt]
+
+			[Enter Shylock]
+			[Enter Benvolio]
+				Shylock: Recall a memory.
+				Benvolio: You are as small as I.
+			[Exit Shylock]
+			[Enter Shallow]
+				Shallow: Recall a memory.
+				Benvolio: You are as small as I.
+			[Exit Shallow]
+			[Exit Benvolio]
+
+			[Enter Shylock]
+			[Enter Shallow]
+				Shylock: Are you bigger than me?
+			[Exit Shylock]
+			[Exit Shallow]
+
+			[Enter Shylock]
+			[Enter Slender]
+				Shylock: If so, you are as small as I.
+				Shylock: If so, remember yourself.
+			[Exit Shylock]
+			[Enter Shallow]
+				Shallow: If so, you are as small as I.
+				Shallow: If so, remember yourself.
+			[Exit Shallow]
+			[Exit Slender]
+
+			[Enter Shylock]
+			[Enter Shallow]
+				Shylock: Are you as big as me?
+			[Exit Shylock]
+			[Exit Shallow]
+
+			[Enter Shylock]
+			[Enter Slender]
+				Shylock: If so, you are as small as I.
+				Shylock: If so, remember yourself.
+			[Exit Shylock]
+			[Enter Shallow]
+				Shallow: If so, you are as small as I.
+				Shallow: If so, remember yourself.
+			[Exit Shallow]
+			[Exit Slender]
+
+			[Enter Shylock]
+			[Enter Shallow]
+				Shylock: Are you worse than me?
+			[Exit Shylock]
+			[Exit Shallow]
+
+			[Enter Shallow]
+			[Enter Slender]
+				Shallow: If so, you are as small as I.
+				Shallow: If so, remember yourself.
+			[Exit Shallow]
+			[Enter Shylock]
+				Shylock: If so, you are as small as I.
+				Shylock: If so, remember yourself.
+			[Exit Shylock]
+			[Exit Slender]
+			[Enter Slender]
+			[Enter Timon]
+				Slender: If so, you are as small as the sum of yourself and a cat.
+			[Exit Timon]
+			[Exit Slender]
+
+			[Enter Titus]
+			[Enter Tybalt] Titus: You are as small as the sum of yourself and a bold cat. [Exit Tybalt]
+			[Exit Titus]
+			Scene XIV: Swap Sort copy remaining string chars loop.
+			[Exeunt]
+				[Enter Tybalt]
+				[Enter Bianca]
+					Tybalt: Are you as big as me?
+					Bianca: If so, let us return to scene XV.
+				[Exit Tybalt]
+				[Exit Bianca]
+					[Enter Benvolio]
+					[Enter Slender]
+						Slender: Recall a memory.
+						Benvolio: You are as small as I. Remember yourself.
+					[Exit Benvolio]
+					[Exit Slender]
+				[Enter Tybalt]
+				[Enter Bianca]
+					Bianca: You are as small as the sum of yourself and a cat.
+					Bianca: Let us return to scene XIV.
+				[Exit Tybalt]
+				[Exit Bianca]
+			Scene XV: Finished copying to the temp stack.
+			[Exeunt]
+			[Enter Bianca]
+			[Enter Solinus] Bianca: You are as small as I. [Exit Solinus]
+			[Exit Bianca]
+			Scene XVI: Reverse the stack to the correct order.
+			[Exeunt]
+			[Enter Titus]
+				[Enter Slender]
+					Titus: Recall a memory.
+					[Exit Titus]
+					[Enter Benvolio] 	Slender: You are as small as I. Remember yourself. [Exit Benvolio]
+					[Enter Titus]
+				[Exit Slender]
+
+				[Enter Solinus]
+					Titus: You are as small as the sum of yourself and a toad!
+					Titus: Are you better than nothing?
+					Solinus: If so, let us return to scene XVI.
+				[Exit Solinus]
+			[Exit Titus]
+
+	[Enter Titus]
+	[Enter Thurio] Titus: You are as small as the sum of yourself and a cat! [Exit Thurio]
+	[Enter Titania]
+	Titania: You are as small as the difference between yourself and a cat!
+	Titania: Are you better than nothing? If so, let us return to scene XI.
+	[Exit Titania]
+	[Exit Titus]
+
+[Enter Titania]
+[Enter Timon]
+Titania: Are you better than nothing?
+Timon: If so, let us return to scene X.
+[Exit Titania]
+[Exit Timon]
+
+
+[Enter Bianca]
+[Enter Solinus]
+Bianca: You are as small as me!
+[Exit Bianca]
+[Exit Solinus]
+
+Scene XVIII: Reverse the stack to the correct order.
+[Exeunt]
+[Enter Titus]
+	[Enter Benvolio]
+		Titus: Recall a memory.
+		[Exit Titus]
+		[Enter Slender] 	Benvolio: You are as small as I. Remember yourself. [Exit Slender]
+		[Enter Titus]
+	[Exit Benvolio]
+
+	[Enter Bianca]
+		Titus: You are as small as the sum of yourself and a toad!
+		Titus: Are you better than nothing?
+		Bianca: If so, let us return to scene XVIII.
+	[Exit Bianca]
+[Exit Titus]
+
+
+Scene XIX: Display sorted string.
+[Exeunt]
+[Enter Titus]
+	[Enter Slender]
+	Titus: Recall a memory.
+	Titus: Speak your mind!
+	[Exit Slender]
+
+	[Enter Solinus]
+		Titus: You are as small as the sum of yourself and a toad!
+		Titus: Are you better than nothing?
+		Solinus: If so, let us return to scene XIX.
+	[Exit Solinus]
+[Exit Titus]
+[Exeunt]
