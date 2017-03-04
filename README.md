@@ -18,8 +18,8 @@ This one time, I only had ```gotos``` for flow control, and because everything i
 This repository is my collection of source code created during my studies. It is also the accumulated resources I've found while scouring the internet and include my own personal notes and commentaries on how I approached each new language.
 
 ## Languages Studied
-- [LOLCODE](https://github.com/mstraughan86/Esoteric-Language-Studies/tree/master/LOLCODE) - [1](http://lolcode.org/) [2](https://esolangs.org/wiki/LOLCODE)
-- [Shakespeare Programming Language](https://github.com/mstraughan86/Esoteric-Language-Studies/tree/master/Shakespeare) - [1](http://shakespearelang.sourceforge.net/) [2](https://esolangs.org/wiki/Shakespeare)
+- [LOLCODE](https://github.com/mstraughan86/Esoteric-Language-Studies/tree/master/LOLCODE)
+- [Shakespeare Programming Language](https://github.com/mstraughan86/Esoteric-Language-Studies/tree/master/Shakespeare)
 
 ## Interesting Languages To Study
 - [Beeswax](https://github.com/m-lohmann/BeeswaxEsolang.jl) - [1](https://esolangs.org/wiki/Beeswax)
