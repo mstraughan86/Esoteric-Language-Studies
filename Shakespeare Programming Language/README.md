@@ -13,6 +13,7 @@ Online compilers if you do not want to deal with having to compile on your local
 
 - [Try It Online](https://tio.run/#spl)
 - [Apex Oracle](https://apex.oracle.com/pls/apex/f?p=25672:1:111706453446673:::::)
+- [Horatio](http://mileszim.github.io/horatio/)
 
 ## Development
 
@@ -73,6 +74,7 @@ All 256 characters from index 0 - 255. You use these with ```Open your heart.```
 
 A few important ones' key and value:
 ```
+newline=10,
 .=46,
 :=58,
  =160,
@@ -179,71 +181,34 @@ const convert = key => {
 
 Just getting the correct characters for you to print out is difficult enough, but managable with the above references!
 
+After tackling this, character representation through weird power of two maths, everything else should just be work to get done. The language has all other features that you can build off of I think.
 
+Chech out the following implementations of stuff:
+- 
+- 
+- 
+- 
+- 
+- 
+- 
 
+## Theories
 
+#### Function Calls through Gotos
+I just don't know enough about using ```gotos``` to know about any pre-established patterns or paradigms, but just winging it...
 
+I think there might be a way to simulate function calls using a master switch code block and function blocks, where every function block exits back to the switch, and the switch has access to enter into every function in the file.
 
+You would need to associate every function block's parameters with specific variables, and make sure to clear those variables before use, set them when calling the function, and clearing them after transfering into whatever other recieving function.
 
+You would also need "progress" variables, where you keep track of where you are in the master switch block, so that when you enter back into that block, you jump back to your original place. This progress variable can be kept in a key-value pair somehow tied to the Acts and Scenes in the program.
 
+This way you could have a core group of functions you repeatedly set variables for, jump to and do some calculations, jump back out to where you left off through your progress variables, retrieve those calculationsi from your set variables, clear those, and move on forward! That was a mouthful, and it would probably look like a few page fulls of lines of code!
 
+But I think, in theory, this would be a method to achieve modular code blocks through the use of  ```gotos```. I believe this proposed solutioni would work.
 
-
-
-
-
-
-Lets see what this language can [do](https://github.com/justinmeza/lolcode-spec/blob/master/v1.2/lolcode-spec-v1.2.md). (This is an out-dated spec, as the ```future``` branch does not have very much official documentation gathered in a single place.)
-
-LOLCODE has:
-- Variables, Types and Type Casting
-- All the math operators
-- All the boolean operators
-- All the compoarison operators
-- Functions
-- Conditionals, Cases, Iterative and While Loops
-- Arrays with index retrieval
-- String Concatination
-
-LOLCODE says it has:
-- File IO, but I can't get it to work reliably. I use the cli argument workaround above.
-
-This seems like a very functional and capable language to work with. Infact, from the language specifications, it just looks like a "reskin" of a statically typed language with a few quirks.
-
-My development direction was focused on tackling the challenge problem, which was to basically:
-- Accept input string.
-- Determine if string is a palindrome.
-- Sort string.
-- Output a message to the user.
-
-To bring it all together, put the input strings into a file, and mass output a message with each line processed like the above.
-
-For working examples, try out:
-```
-./lci app1.lol
-```
-
-```
-./lci app2.lol < list.txt
-```
-
-- Once I figured out how to use arrays to better store my data, everything else kind of clicked together.
-- I determined my own personal style guide as I went.
-- Condensing variable declaration, assignment and if applicable, one-time use in a function call into a single line with LOLCODE's ability to combine lines with the ```,``` operator was a very useful, cookie-cutter-ish way of approaching syntax.
-- Also, use lowercase everything to distinguise your code from the very loud syntax.
-- Regarding loops, I found that you are either iterating from 0 to some number N, or you are iterating until a condition is met and escape out. I didn't have too much luck iterating from a value V to some number N, but this might be possible.
-- It will help to keep your string lengths handy, because they are used all over. I don't know how to get around this.
-- This is doubly true for arrays I believe. I don't know of a way to get array length, unless it was something like ```array'Z LEN```, which I don't remember if I tried or not.
-- And use functions! And organize your function declaration area in your file! Be neat!
-
-```
-I HAS A input_string ITZ A YARN, GIMMEH input_string
-I HAS A input_int, GIMMEH input_string, input_string IS NOW A YARN
-I HAS A string_length, string_length R I IZ STRING'Z LEN YR string MKAY
-
-I HAS A character_array ITZ A BUKKIT
-I HAS A array_length, array_length R 3
-```
+#### Does ```gotos``` follow Assembly coding techniques?
+My gut says yes.
 
 ## Knowledge Base
 - http://lolcode.org/
