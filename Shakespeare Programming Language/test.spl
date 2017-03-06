@@ -6,28 +6,46 @@ Tybalt, instructor.
 Portia, character stack.
 Adonis, stack length.
 
-Act I: Display Entire Alphabet.
+Act I: Message to user.
 	Scene I: PREFIX (Setup variable values here).
 		[Exeunt]
 		[Enter Thurio and Tybalt]Tybalt:You are nothing.[Exeunt]
 		[Enter Tybalt and Thurio]Thurio:You are nothing.[Exeunt]
 
-	Scene II: BODY (Looping logic here).
-		[Exeunt]
-		[Enter Thurio and Tybalt]Tybalt:Speak your mind.[Exeunt]
+	Scene II: BODY (Display stuff).
+	[Exeunt]
+	[Enter Thurio and Tybalt]
+		Tybalt:
+		You are as big as the sum of a cat and the sum of a big big cat and a big big big big big big cat.	Speak your mind.
+		You are as big as the sum of a big cat and the sum of a big big cat and the sum of a big big big cat and the sum of a big big big big big cat and a big big big big big big cat. Speak your mind.
+		You are as big as the sum of a big big cat and the sum of a big big big big cat and the sum of a big big big big big cat and a big big big big big big cat. Speak your mind.
+		You are as big as the sum of a cat and the sum of a big big cat and the sum of a big big big big big cat and a big big big big big big cat. Speak your mind.
+		You are as big as the sum of a big cat and the sum of a big big big big cat and the sum of a big big big big big cat and a big big big big big big cat. Speak your mind.
 
-		[Enter Thurio and Tybalt]
-			Tybalt: You are as big as the sum of yourself and a cat!
-			Tybalt: Are you as big as a red red red red red red red red cat?
-			Tybalt: If not, let us return to scene II.
-		[Exeunt]
+		You are as big as the sum of a big big big big big cat and a big big big big big big big cat. Speak your mind.
 
-	Scene III: SUFFIX (Cleanup variables before exit).
+		You are as big as the sum of a cat and the sum of a big big big big big cat and a big big big big big big cat. Speak your mind.
+
+		You are as big as the sum of a big big big big big cat and a big big big big big big big cat. Speak your mind.
+
+		You are as big as the sum of a cat and the sum of a big cat and the sum of a big big big big cat and the sum of a big big big big big cat and a big big big big big big cat. Speak your mind.
+		You are as big as the sum of a big big cat and the sum of a big big big big cat and the sum of a big big big big big cat and a big big big big big big cat. Speak your mind.
+		You are as big as the sum of a big cat and the sum of a big big big big cat and the sum of a big big big big big cat and a big big big big big big cat. Speak your mind.
+		You are as big as the sum of a cat and the sum of a big big big cat and the sum of a big big big big big cat and a big big big big big big cat. Speak your mind.
+		You are as big as the sum of a big cat and the sum of a big big cat and the sum of a big big big cat and the sum of a big big big big big cat and a big big big big big big cat. Speak your mind.
+		You are as big as the sum of a cat and the sum of a big cat and the sum of a big big cat and the sum of a big big big big big cat and a big big big big big big cat. Speak your mind.
+
+		You are as big as the sum of a big cat and the sum of a big big big cat and the sum of a big big big big cat and a big big big big big cat. Speak your mind.
+
+		You are as big as the sum of a big cat and a big big big cat. Speak your mind.
+	[Exeunt]
+
+	Scene III: SUFFIX (Cleanup variables).
 		[Exeunt]
 		[Enter Thurio and Tybalt]Tybalt:You are nothing.[Exeunt]
 		[Enter Tybalt and Thurio]Thurio:You are nothing.[Exeunt]
 
-Act II: Get User Input Into Portia_Adonis.
+Act II: Get user input.
 	Scene I: PREFIX (Empty variables).
 		[Exeunt]
 		[Enter Thurio and Tybalt]Tybalt:You are nothing.[Exeunt]
@@ -71,7 +89,7 @@ Act II: Get User Input Into Portia_Adonis.
 		[Exeunt]
 		[Enter Adonis and Thurio]Thurio:Recall a memory.[Exeunt]
 
-Act III: Print String.
+Act III: Print user input string back out.
 	Scene I: PREFIX (Empty variables and backup string length into its own stack).
 		[Exeunt]
 		[Enter Thurio and Tybalt]Tybalt:You are nothing.[Exeunt]
