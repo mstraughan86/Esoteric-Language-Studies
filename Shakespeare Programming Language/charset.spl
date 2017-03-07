@@ -1,0 +1,25 @@
+Display character set.
+
+Thurio, instructor.
+Tybalt, instructor.
+
+Act I: Display character set.
+	Scene I: PREFIX (Setup variable values here).
+		[Exeunt]
+		[Enter Thurio and Tybalt]Tybalt:You are nothing.[Exeunt]
+		[Enter Tybalt and Thurio]Thurio:You are nothing.[Exeunt]
+
+	Scene II: BODY (Looping logic here).
+		[Exeunt]
+		[Enter Thurio and Tybalt]Tybalt:Speak your mind.[Exeunt]
+
+		[Enter Thurio and Tybalt]
+			Tybalt: You are as big as the sum of yourself and a cat!
+			Tybalt: Are you as big as a red red red red red red red red cat?
+			Tybalt: If not, let us return to scene II.
+		[Exeunt]
+
+	Scene III: SUFFIX (Cleanup variables before exit).
+		[Exeunt]
+		[Enter Thurio and Tybalt]Tybalt:You are nothing.[Exeunt]
+		[Enter Tybalt and Thurio]Thurio:You are nothing.[Exeunt]
