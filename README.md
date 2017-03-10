@@ -19,7 +19,7 @@ This repository is my collection of source code created during my studies. It is
 
 ## Languages Studied
 - [LOLCODE](https://github.com/mstraughan86/Esoteric-Language-Studies/tree/master/LOLCODE)
-- [Shakespeare Programming Language](https://github.com/mstraughan86/Esoteric-Language-Studies/tree/master/Shakespeare)
+- [Shakespeare Programming Language](https://github.com/mstraughan86/Esoteric-Language-Studies/tree/master/Shakespeare%20Programming%20Language)
 
 ## Interesting Languages To Study
 - [Beeswax](https://github.com/m-lohmann/BeeswaxEsolang.jl) - [1](https://esolangs.org/wiki/Beeswax)
