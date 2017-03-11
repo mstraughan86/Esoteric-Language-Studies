@@ -184,13 +184,11 @@ Just getting the correct characters for you to print out is difficult enough, bu
 After tackling this, character representation through weird power of two maths, everything else should just be work to get done. The language has all other features that you can build off of I think.
 
 Chech out the following implementations of stuff:
-- 
-- 
-- 
-- 
-- 
-- 
-- 
+- [Display Charset]()
+- [Echo]()
+- [Reverse String]()
+- [Is String Palindrome]()
+- [Sort String]()
 
 ## Theories
 
