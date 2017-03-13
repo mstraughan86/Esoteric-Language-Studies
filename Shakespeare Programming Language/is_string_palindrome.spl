@@ -1,0 +1,178 @@
+Is string palindrome.
+
+Thurio, instructor.
+Tybalt, instructor.
+Thaisa, instructor.
+
+Portia, character stack.
+Adonis, stack length.
+
+Act I: Message to user.
+	Scene I: PREFIX (Setup variable values here).
+		[Exeunt]
+		[Enter Thurio and Tybalt]Tybalt:You are nothing.[Exeunt]
+		[Enter Tybalt and Thurio]Thurio:You are nothing.[Exeunt]
+
+	Scene II: BODY (Display stuff).
+	[Exeunt]
+	[Enter Thurio and Tybalt]
+		Tybalt:
+		You are as big as the sum of a cat and the sum of a big big cat and a big big big big big big cat.	Speak your mind.
+		You are as big as the sum of a big cat and the sum of a big big cat and the sum of a big big big cat and the sum of a big big big big big cat and a big big big big big big cat. Speak your mind.
+		You are as big as the sum of a big big cat and the sum of a big big big big cat and the sum of a big big big big big cat and a big big big big big big cat. Speak your mind.
+		You are as big as the sum of a cat and the sum of a big big cat and the sum of a big big big big big cat and a big big big big big big cat. Speak your mind.
+		You are as big as the sum of a big cat and the sum of a big big big big cat and the sum of a big big big big big cat and a big big big big big big cat. Speak your mind.
+
+		You are as big as the sum of a big big big big big cat and a big big big big big big big cat. Speak your mind.
+
+		You are as big as the sum of a cat and the sum of a big big big big big cat and a big big big big big big cat. Speak your mind.
+
+		You are as big as the sum of a big big big big big cat and a big big big big big big big cat. Speak your mind.
+
+		You are as big as the sum of a cat and the sum of a big cat and the sum of a big big big big cat and the sum of a big big big big big cat and a big big big big big big cat. Speak your mind.
+		You are as big as the sum of a big big cat and the sum of a big big big big cat and the sum of a big big big big big cat and a big big big big big big cat. Speak your mind.
+		You are as big as the sum of a big cat and the sum of a big big big big cat and the sum of a big big big big big cat and a big big big big big big cat. Speak your mind.
+		You are as big as the sum of a cat and the sum of a big big big cat and the sum of a big big big big big cat and a big big big big big big cat. Speak your mind.
+		You are as big as the sum of a big cat and the sum of a big big cat and the sum of a big big big cat and the sum of a big big big big big cat and a big big big big big big cat. Speak your mind.
+		You are as big as the sum of a cat and the sum of a big cat and the sum of a big big cat and the sum of a big big big big big cat and a big big big big big big cat. Speak your mind.
+
+		You are as big as the sum of a big cat and the sum of a big big big cat and the sum of a big big big big cat and a big big big big big cat. Speak your mind.
+
+		You are as big as the sum of a big cat and a big big big cat. Speak your mind.
+	[Exeunt]
+
+	Scene III: SUFFIX (Cleanup variables).
+		[Exeunt]
+		[Enter Thurio and Tybalt]Tybalt:You are nothing.[Exeunt]
+		[Enter Tybalt and Thurio]Thurio:You are nothing.[Exeunt]
+
+Act II: Get user input.
+	Scene I: PREFIX (Empty variables).
+		[Exeunt]
+		[Enter Thurio and Tybalt]Tybalt:You are nothing.[Exeunt]
+		[Enter Tybalt and Thurio]Thurio:You are nothing.[Exeunt]
+		[Enter Portia and Tybalt]Tybalt:You are nothing.[Exeunt]
+		[Enter Adonis and Tybalt]Tybalt:You are nothing.[Exeunt]
+
+	Scene II: BODY (Push input string into Tybalt and set length into Adonis).
+		[Exeunt]
+		[Enter Thurio and Tybalt]
+			Tybalt:Open your mind!
+			Thurio:Remember me.
+		[Exeunt]
+		[Enter Adonis and Tybalt]Tybalt:You are as big as the sum of yourself and a cat.[Exeunt]
+
+		[Enter Tybalt and Thurio]
+			Thurio: Am I as evil as a war?
+			Tybalt: If not, let us return to scene II.
+		[Exeunt]
+
+		[Enter Tybalt and Thurio]Thurio: Recall a memory.[Exeunt]
+		[Enter Adonis and Tybalt]Tybalt: You are as small as the difference between yourself and a cat.[Exeunt]
+
+	Scene III: PREFIX (Backup string length into its own stack).
+		[Exeunt]
+		[Enter Adonis and Thurio]Thurio:Remember yourself.[Exeunt]
+
+	Scene IV: BODY (Push string stack into Portia unreversed).
+		[Exeunt]
+		[Enter Tybalt and Portia]
+			Portia: Recall a memory.
+			Tybalt: Remember me.
+		[Exeunt]
+		[Enter Tybalt and Adonis]
+			Tybalt: You are as small as the sum of yourself and a toad!
+			Tybalt: Are you better than nothing?
+			Tybalt: If so, let us return to scene IV.
+		[Exeunt]
+
+	Scene V: SUFFIX (Reset string length and clear stack).
+		[Exeunt]
+		[Enter Adonis and Thurio]Thurio:Recall a memory.[Exeunt]
+
+
+
+Act III: Is string a palindrome.
+	Scene I: PREFIX (Empty variables and backup string length into its own stack).
+		[Exeunt]
+		[Enter Thurio and Tybalt]Tybalt:You are nothing.[Exeunt]
+		[Enter Tybalt and Thurio]Thurio:You are nothing.[Exeunt]
+		[Enter Thaisa and Thurio]Thurio:You are nothing.[Exeunt]
+		[Enter Adonis and Thurio]Thurio:Remember yourself.[Exeunt]
+
+	Scene II: BODY (Extract characters and copy them).
+		[Exeunt]
+		[Enter Thurio and Portia]
+			Thurio: Recall a memory.[Exit Thurio]
+			[Enter Tybalt]Portia: Remember me.[Exit Tybalt]
+			[Enter Thaisa]Portia: Remember me.[Exit Thaisa]
+		[Exeunt]
+		[Enter Thurio and Adonis]
+			Thurio: You are as small as the sum of yourself and a toad!
+			Thurio: Are you better than nothing?
+			Adonis: If so, let us return to scene II.
+		[Exeunt]
+
+	Scene III: PREFIX (Reset string length).
+		[Exeunt]
+		[Enter Adonis and Thurio]Thurio:Recall a memory.Remember yourself.[Exeunt]
+
+	Scene IV: BODY (Extract characters and copy them again).
+		[Exeunt]
+		[Enter Thurio and Thaisa]
+			Thurio: Recall a memory.[Exit Thurio]
+			[Enter Portia]Thaisa: Remember me.[Exit Portia]
+			[Enter Thurio]Thaisa: Remember me.[Exit Thurio]
+		[Exeunt]
+		[Enter Thurio and Adonis]
+			Thurio: You are as small as the sum of yourself and a toad!
+			Thurio: Are you better than nothing?
+			Adonis: If so, let us return to scene IV.
+		[Exeunt]
+
+	Scene V: PREFIX (Reset string length again and set result boolean value).
+		[Exeunt]
+		[Enter Adonis and Thurio]Thurio:Recall a memory.Remember yourself.[Exeunt]
+		[Enter Thaisa and Thurio]Thurio:You are as big as a cat.[Exeunt]
+
+	Scene VI: BODY (Compare string and reversed string to check if it is a palindrome).
+		[Exeunt]
+		[Enter Thurio and Tybalt]
+			Thurio:Recall a memory.
+			Tybalt:Recall a memory.
+			Tybalt:Are you as big as me?[Exeunt]
+			[Enter Thaisa and Tybalt]Tybalt:If not, you are as small as a toad![Exeunt]
+		[Exeunt]
+		[Enter Thurio and Adonis]
+			Thurio: You are as small as the sum of yourself and a toad!
+			Thurio: Are you better than nothing?
+			Adonis: If so, let us return to scene VI.
+		[Exeunt]
+
+	Scene VII: BODY (Output palindrome result).
+		[Exeunt]
+		[Enter Thurio and Thaisa]
+			Thurio: Are you bigger than nothing?
+			Thaisa: If so, you are as small as the sum of a bold brave fine fair cute good cat and a cat.
+			Thaisa: If so, speak your mind.
+			Thaisa: If so, you are as small as the sum of a bold brave fine fair cute good cat and the sum of a bold brave fine fair cat and the sum of a bold brave fine cat and a cat.
+			Thaisa: If so, speak your mind.
+			Thaisa: If so, you are as small as the sum of a bold brave fine fair cute good cat and the sum of a bold brave cat and a cat.
+			Thaisa: If so, speak your mind.
+
+			Thurio: Are you smaller than nothing?
+			Thaisa: If so, you are as small as the sum of a bold brave fine fair cute good cat and the sum of a bold brave fine cat and the sum of a bold brave cat and a bold cat.
+			Thaisa: If so, speak your mind.
+			Thaisa: If so, you are as small as the sum of a bold brave fine fair cute good cat and a cat.
+			Thaisa: If so, speak your mind.
+			Thaisa: If so, you are as small as the sum of a bold brave fine fair cute good cat and the sum of a bold brave fine fair cat and the sum of a bold brave fine cat and a cat.
+			Thaisa: If so, speak your mind.
+		[Exeunt]
+
+	Scene VIII: SUFFIX (Reset string length and clear stack and reset other instructor values).
+		[Exeunt]
+		[Enter Thaisa and Thurio]Thurio:You are nothing.[Exeunt]
+		[Enter Thurio and Thaisa]Thaisa:You are nothing.[Exeunt]
+		[Enter Adonis and Thurio]Thurio:Recall a memory.[Exeunt]
+
+
