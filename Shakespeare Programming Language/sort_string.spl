@@ -1,0 +1,321 @@
+Reverse user input string.
+
+Thurio, instructor.
+Tybalt, instructor.
+Thaisa, instructor.
+Timon, instructor.
+
+Shallow,		temporary sort storage for a single value.
+Shylock,		temporary sort storage for a single value.
+Slender,		temporary sort storage stack to reverse.
+
+Portia, character stack.
+Adonis, stack length.
+
+Act I: Message to user.
+	Scene I: PREFIX (Setup variable values here).
+		[Exeunt]
+		[Enter Thurio and Tybalt]Tybalt:You are nothing.[Exeunt]
+		[Enter Tybalt and Thurio]Thurio:You are nothing.[Exeunt]
+
+	Scene II: BODY (Display stuff).
+	[Exeunt]
+	[Enter Thurio and Tybalt]
+		Tybalt:
+		You are as big as the sum of a cat and the sum of a big big cat and a big big big big big big cat.	Speak your mind.
+		You are as big as the sum of a big cat and the sum of a big big cat and the sum of a big big big cat and the sum of a big big big big big cat and a big big big big big big cat. Speak your mind.
+		You are as big as the sum of a big big cat and the sum of a big big big big cat and the sum of a big big big big big cat and a big big big big big big cat. Speak your mind.
+		You are as big as the sum of a cat and the sum of a big big cat and the sum of a big big big big big cat and a big big big big big big cat. Speak your mind.
+		You are as big as the sum of a big cat and the sum of a big big big big cat and the sum of a big big big big big cat and a big big big big big big cat. Speak your mind.
+
+		You are as big as the sum of a big big big big big cat and a big big big big big big big cat. Speak your mind.
+
+		You are as big as the sum of a cat and the sum of a big big big big big cat and a big big big big big big cat. Speak your mind.
+
+		You are as big as the sum of a big big big big big cat and a big big big big big big big cat. Speak your mind.
+
+		You are as big as the sum of a cat and the sum of a big cat and the sum of a big big big big cat and the sum of a big big big big big cat and a big big big big big big cat. Speak your mind.
+		You are as big as the sum of a big big cat and the sum of a big big big big cat and the sum of a big big big big big cat and a big big big big big big cat. Speak your mind.
+		You are as big as the sum of a big cat and the sum of a big big big big cat and the sum of a big big big big big cat and a big big big big big big cat. Speak your mind.
+		You are as big as the sum of a cat and the sum of a big big big cat and the sum of a big big big big big cat and a big big big big big big cat. Speak your mind.
+		You are as big as the sum of a big cat and the sum of a big big cat and the sum of a big big big cat and the sum of a big big big big big cat and a big big big big big big cat. Speak your mind.
+		You are as big as the sum of a cat and the sum of a big cat and the sum of a big big cat and the sum of a big big big big big cat and a big big big big big big cat. Speak your mind.
+
+		You are as big as the sum of a big cat and the sum of a big big big cat and the sum of a big big big big cat and a big big big big big cat. Speak your mind.
+
+		You are as big as the sum of a big cat and a big big big cat. Speak your mind.
+	[Exeunt]
+
+	Scene III: SUFFIX (Cleanup variables).
+		[Exeunt]
+		[Enter Thurio and Tybalt]Tybalt:You are nothing.[Exeunt]
+		[Enter Tybalt and Thurio]Thurio:You are nothing.[Exeunt]
+
+Act II: Get user input.
+	Scene I: PREFIX (Empty variables).
+		[Exeunt]
+		[Enter Thurio and Tybalt]Tybalt:You are nothing.[Exeunt]
+		[Enter Tybalt and Thurio]Thurio:You are nothing.[Exeunt]
+		[Enter Portia and Tybalt]Tybalt:You are nothing.[Exeunt]
+		[Enter Adonis and Tybalt]Tybalt:You are nothing.[Exeunt]
+
+	Scene II: BODY (Push input string into Tybalt and set length into Adonis).
+		[Exeunt]
+		[Enter Thurio and Tybalt]
+			Tybalt:Open your mind!
+			Thurio:Remember me.
+		[Exeunt]
+		[Enter Adonis and Tybalt]Tybalt:You are as big as the sum of yourself and a cat.[Exeunt]
+
+		[Enter Tybalt and Thurio]
+			Thurio: Am I as evil as a war?
+			Tybalt: If not, let us return to scene II.
+		[Exeunt]
+
+		[Enter Tybalt and Thurio]Thurio: Recall a memory.[Exeunt]
+		[Enter Adonis and Tybalt]Tybalt: You are as small as the difference between yourself and a cat.[Exeunt]
+
+	Scene III: PREFIX (Backup string length into its own stack).
+		[Exeunt]
+		[Enter Adonis and Thurio]Thurio:Remember yourself.[Exeunt]
+
+	Scene IV: BODY (Push string stack into Portia unreversed).
+		[Exeunt]
+		[Enter Tybalt and Portia]
+			Portia: Recall a memory.
+			Tybalt: Remember me.
+		[Exeunt]
+		[Enter Tybalt and Adonis]
+			Tybalt: You are as small as the sum of yourself and a toad!
+			Tybalt: Are you better than nothing?
+			Tybalt: If so, let us return to scene IV.
+		[Exeunt]
+
+	Scene V: SUFFIX (Reset string length and clear stack).
+		[Exeunt]
+		[Enter Adonis and Thurio]Thurio:Recall a memory.[Exeunt]
+
+Act III: Sort a character stack by value.
+	Scene I: PREFIX (Empty variables).
+		[Exeunt]
+		[Enter Timon and Thaisa]Thaisa: You are nothing![Exeunt]
+
+	Scene II: PREFIX (Setup inner loop length to string length minus one times).
+		[Exeunt]
+		[Enter Thaisa and Adonis]Adonis: You are as big as the difference between myself and a cat![Exeunt]
+		[Enter Thurio and Thaisa]Thaisa: You are nothing![Exeunt]
+
+	Scene III: BODY (Loop through the string two characters at a time).
+		[Exeunt]
+		[Enter Tybalt and Thaisa]Thaisa: You are nothing![Exeunt]
+
+	Scene IV: BODY (Pop previously sorted characters loop).
+		[Exeunt]
+		[Enter Tybalt and Thurio]
+			Tybalt: Are you as big as me?
+			Thurio: If so, let us return to scene V.
+		[Exeunt]
+		[Enter Portia and Slender]
+			Slender: Recall a memory.
+			Portia: Remember me.
+		[Exeunt]
+		[Enter Tybalt and Thurio]
+			Thurio: You are as big as the sum of yourself and a cat.
+			Thurio: Let us return to scene IV.
+		[Exeunt]
+
+	Scene V: BODY (Swap Sort).
+		[Exeunt]
+		[Enter Shylock and Portia]
+			Shylock: Recall a memory.
+			Portia: You are as small as I.
+		[Exeunt]
+		[Enter Shallow and Portia]
+			Shallow: Recall a memory.
+			Portia: You are as small as I.
+		[Exeunt]
+
+		[Enter Shylock and Shallow]
+			Shylock: Are you bigger than me?
+		[Exeunt]
+		[Enter Shylock and Slender]
+			Shylock: If so, remember me.
+		[Exeunt]
+		[Enter Shallow and Slender]
+			Shallow: If so, remember me.
+		[Exeunt]
+
+		[Enter Shylock and Shallow]
+			Shylock: Are you as big as me?
+		[Exeunt]
+		[Enter Shylock and Slender]
+			Shylock: If so, remember me.
+		[Exeunt]
+		[Enter Shallow and Slender]
+			Shallow: If so, remember me.
+		[Exeunt]
+
+		[Enter Shylock and Shallow]
+			Shylock: Are you worse than me?
+		[Exeunt]
+		[Enter Shallow and Slender]
+			Shallow: If so, remember me.
+		[Exeunt]
+		[Enter Shylock and Slender]
+			Shylock: If so, remember me.
+		[Exeunt]
+		[Enter Slender and Timon]
+			Slender: If so, you are as big as the sum of yourself and a cat.
+		[Exeunt]
+
+		[Enter Thaisa and Tybalt]
+			Thaisa: You are as big as the sum of yourself and a bold cat.
+		[Exeunt]
+
+	Scene VI: BODY (Swap sort copy remaining string chars loop).
+		[Exeunt]
+		[Enter Tybalt and Adonis]
+			Tybalt: Are you as big as me?
+			Adonis: If so, let us return to scene VII.
+		[Exeunt]
+		[Enter Portia and Slender]
+			Slender: Recall a memory.
+			Portia: Remember me.
+		[Exeunt]
+		[Enter Tybalt and Adonis]
+			Adonis: You are as big as the sum of yourself and a cat.
+			Adonis: Let us return to scene VI.
+		[Exeunt]
+
+	Scene VII: PREFIX (Load length from stack).
+		[Exeunt]
+		[Enter Adonis and Thurio]Thurio:Remember yourself.[Exeunt]
+
+	Scene VIII: BODY (Reverse the stack to the correct order).
+		[Exeunt]
+		[Enter Thaisa and Slender]
+			Thaisa: Recall a memory.
+		[Exeunt]
+		[Enter Portia and Slender]
+			Slender: Remember me.
+		[Exeunt]
+		[Enter Adonis and Thaisa]
+			Thaisa: You are as small as the sum of yourself and a toad!
+			Thaisa: Are you better than nothing?
+			Adonis: If so, let us return to scene VIII.
+		[Exeunt]
+
+	Scene IX: PREFIX (Save length to stack).
+		[Exeunt]
+		[Enter Adonis and Thurio]Thurio:Recall a memory.[Exeunt]
+
+	Scene X: LOOP (GOTO Scene III length minus times).
+		[Enter Thurio and Thaisa]
+			Thaisa: You are as big as the sum of yourself and a cat!
+		[Exeunt]
+
+		[Enter Thaisa and Tybalt]
+			Tybalt: You are as small as the difference between yourself and a cat!
+			Tybalt: Are you better than nothing? If so, let us return to scene III.
+		[Exeunt]
+
+	Scene XI: LOOP (GOTO Scene I if we are not sorted yet).
+		[Exeunt]
+		[Enter Timon and Thaisa]
+			Thaisa:Are you better than nothing?
+			Thaisa:If so, let us return to scene I.
+		[Exeunt]
+
+Act IV: Reverse string.
+	Scene I: PREFIX (Empty variables and backup string length into its own stack).
+		[Exeunt]
+		[Enter Thurio and Tybalt]Tybalt:You are nothing.[Exeunt]
+		[Enter Tybalt and Thurio]Thurio:You are nothing.[Exeunt]
+		[Enter Adonis and Thurio]Thurio:Remember yourself.[Exeunt]
+
+	Scene II: BODY (Extract characters from stack).
+		[Exeunt]
+		[Enter Thurio and Portia]
+			Thurio: Recall a memory.
+			Portia: Remember me.
+		[Exeunt]
+		[Enter Thurio and Adonis]
+			Thurio: You are as small as the sum of yourself and a toad!
+			Thurio: Are you better than nothing?
+			Adonis: If so, let us return to scene II.
+		[Exeunt]
+
+    Scene III: PREFIX (Reset string length).
+        [Exeunt]
+        [Enter Adonis and Thurio]Thurio:Recall a memory.Remember yourself.[Exeunt]
+
+    Scene IV: BODY (Swap character stack to another variable to reverse later).
+        [Exeunt]
+        [Enter Thurio and Tybalt]
+            Tybalt: Recall a memory.
+            Thurio: Remember me.
+        [Exeunt]
+        [Enter Thurio and Adonis]
+            Thurio: You are as small as the sum of yourself and a toad!
+            Thurio: Are you better than nothing?
+            Thurio: If so, let us return to scene IV.
+        [Exeunt]
+
+	Scene V: PREFIX (Reset string length again).
+		[Exeunt]
+		[Enter Adonis and Thurio]Thurio:Recall a memory.Remember yourself.[Exeunt]
+
+	Scene VI: BODY (Return character stack back to original variable now reversed).
+		[Exeunt]
+		[Enter Tybalt and Portia]
+			Portia: Recall a memory.
+			Tybalt: Remember me.
+		[Exeunt]
+		[Enter Thurio and Adonis]
+			Thurio: You are as small as the sum of yourself and a toad!
+			Thurio: Are you better than nothing?
+			Thurio: If so, let us return to scene VI.
+		[Exeunt]
+
+	Scene VII: SUFFIX (Reset string length and clear stack).
+		[Exeunt]
+		[Enter Adonis and Thurio]Thurio:Recall a memory.[Exeunt]
+
+Act V: Print user input string back out.
+	Scene I: PREFIX (Empty variables and backup string length into its own stack).
+		[Exeunt]
+		[Enter Thurio and Tybalt]Tybalt:You are nothing.[Exeunt]
+		[Enter Tybalt and Thurio]Thurio:You are nothing.[Exeunt]
+		[Enter Adonis and Thurio]Thurio:Remember yourself.[Exeunt]
+
+	Scene II: BODY (Extract characters and print them).
+		[Exeunt]
+		[Enter Thurio and Portia]
+			Thurio: Recall a memory. Speak your mind!
+			Portia: Remember me.
+		[Exeunt]
+		[Enter Thurio and Adonis]
+			Thurio: You are as small as the sum of yourself and a toad!
+			Thurio: Are you better than nothing?
+			Adonis: If so, let us return to scene II.
+		[Exeunt]
+
+	Scene III: PREFIX (Reset string length).
+		[Exeunt]
+		[Enter Adonis and Thurio]Thurio:Recall a memory.Remember yourself.[Exeunt]
+
+	Scene IV: BODY (Return character stack back to original variable).
+		[Exeunt]
+		[Enter Thurio and Portia]
+			Portia: Recall a memory.
+			Thurio: Remember me.
+		[Exeunt]
+		[Enter Thurio and Adonis]
+			Thurio: You are as small as the sum of yourself and a toad!
+			Thurio: Are you better than nothing?
+			Thurio: If so, let us return to scene IV.
+		[Exeunt]
+
+	Scene V: SUFFIX (Reset string length and clear stack).
+		[Exeunt]
+		[Enter Adonis and Thurio]Thurio:Recall a memory.[Exeunt]
