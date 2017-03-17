@@ -209,8 +209,13 @@ But I think, in theory, this would be a method to achieve modular code blocks th
 My gut says yes.
 
 ## Knowledge Base
-- http://lolcode.org/
-- https://github.com/justinmeza/lci
-- https://github.com/LoganKelly/LOLTracer/blob/master/LOLTracer.lol
-- https://github.com/chuthagoras/lolcode/blob/master/final.lol
-- https://esolangs.org/wiki/LOLCODE
+- http://shakespearelang.sourceforge.net/report/shakespeare/
+- https://github.com/zmbc/shakespearelang/blob/master/shakespearelang/shakespeare.ebnf
+- https://github.com/drsam94/Spl/
+- https://github.com/mileszim/horatio
+- https://github.com/zmbc/shakespearelang
+- https://pypi.python.org/pypi/shakespearelang/0.3.0
+- http://search.cpan.org/dist/Lingua-Shakespeare/lib/Lingua/Shakespeare.pod
+- http://tonyandrews.blogspot.com/2016/07/apex-ide-for-shakespeare-programming.html
+- https://apex.oracle.com/pls/apex/f?p=25672:1::::::
+- https://treskal.com/kha/spl/
